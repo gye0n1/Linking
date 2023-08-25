@@ -4,9 +4,6 @@ function App() {
   return (
     <div>
       <span class="title">LiNking</span>
-      <div class="search"></div>
-      <div class="search2"></div>
-      <div class="search3"></div>
       <span class="login">로그인</span>
       <span class="signup">회원가입</span>
       <span class="center">고객센터</span>
@@ -15,18 +12,24 @@ function App() {
         <div class="menu1"></div>
         <div class="menu2"></div>
         <div class="menu3"></div>
-        <span class="채용정보">채용정보</span>
+        <span class="채용공고">채용공고</span>
         <div class="line1"></div>
-        <div class="직무적성테스트">직무적성테스트</div>
+        <span class="직무적성테스트">직무적성테스트</span>
         <div class="line2"></div>
+        <span class="직업찾기">직업찾기</span>
         <span class=""></span>
         <div class="line3"></div>
         <span class="채용설명회">채용설명회</span>
-        <div class="line4"></div>
       </div>
 
       <div class="loginbox">
-        
+        <span class="plzlogin">더 많은 정보를 원하시면 로그인 하세요</span>
+        <div class="minilogin">
+          <span class="login2">로그인하기</span>
+        </div>
+        <span class="find">아이디 • 비밀번호 찾기</span>
+        <div class="line4"></div>
+        <span class="signup2">회원가입</span>
       </div>
 
       <div class="banner">
@@ -441,6 +444,124 @@ function App() {
             />
           </svg>
         </div>
+      </div>
+
+      <div class="noticebox">
+        <span class="notice">공지사항</span>
+        <div class="line5"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="9"
+          viewBox="0 0 12 9"
+          fill="none"
+          class="noticeicon">
+          <path
+            d="M11.5186 0C11.4616 0 11.4031 0.00787405 11.3446 0.0258718L2.69966 2.63105H0.23997C0.107987 2.63105 0 2.71429 0 2.81777V6.1811C0 6.28459 0.107987 6.36783 0.23997 6.36783H1.76528C1.70979 6.49831 1.67979 6.63667 1.67979 6.77728C1.67979 7.51856 2.48669 8.12148 3.47957 8.12148C4.31046 8.12148 5.01087 7.69854 5.21785 7.12711L11.3461 8.97413C11.4046 8.991 11.4631 9 11.5201 9C11.7735 9 12 8.84027 12 8.62655V0.373453C11.9985 0.15973 11.7735 0 11.5186 0ZM3.47957 7.31496C3.08211 7.31496 2.75966 7.07424 2.75966 6.77728C2.75966 6.65129 2.81815 6.53093 2.92463 6.43532L4.19798 6.8189C4.16798 7.09561 3.85752 7.31496 3.47957 7.31496ZM10.9186 7.97188L3.10161 5.61642L2.90814 5.55793H1.07987V3.44094H2.90814L3.10161 3.38245L10.9186 1.027V7.97188Z"
+            fill="#999999"
+            fill-opacity="0.6"
+          />
+        </svg>
+        <span class="noticecontent">LiNking ver 2.0 출시 되었습니다.</span>
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="53"
+        height="53"
+        viewBox="0 0 53 53"
+        fill="none"
+        class="nextbutton">
+        <g filter="url(#filter0_d_233_163)">
+          <circle
+            cx="26.5"
+            cy="23.5"
+            r="16.5"
+            fill="white"
+            fill-opacity="0.9"
+          />
+          <path
+            d="M23.2419 17.349C23.1646 17.2727 23.1042 17.1829 23.0641 17.0848C23.024 16.9866 23.005 16.8821 23.0082 16.7771C23.0114 16.6721 23.0367 16.5688 23.0827 16.4729C23.1286 16.3771 23.1944 16.2906 23.2761 16.2185C23.3579 16.1463 23.454 16.0899 23.5591 16.0525C23.6642 16.0151 23.7762 15.9974 23.8886 16.0003C24.0011 16.0033 24.1118 16.0269 24.2145 16.0698C24.3171 16.1127 24.4097 16.1741 24.487 16.2505L31.7659 23.4462C31.9162 23.5947 32 23.7912 32 23.9955C32 24.1998 31.9162 24.3963 31.7659 24.5448L24.487 31.7414C24.4102 31.8194 24.3177 31.8824 24.2146 31.9267C24.1116 31.971 24.0001 31.9957 23.8868 31.9995C23.7734 32.0033 23.6603 31.9859 23.5542 31.9486C23.448 31.9112 23.3509 31.8545 23.2684 31.7818C23.1859 31.7091 23.1197 31.6218 23.0737 31.525C23.0277 31.4282 23.0027 31.3238 23.0002 31.2179C22.9977 31.112 23.0178 31.0067 23.0593 30.9081C23.1008 30.8095 23.1628 30.7196 23.2419 30.6436L29.9659 23.9955L23.2419 17.349Z"
+            fill="#7C7A7A"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_233_163"
+            x="0"
+            y="0"
+            width="53"
+            height="53"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="3" />
+            <feGaussianBlur stdDeviation="5" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_233_163"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_233_163"
+              result="shape"
+            />
+          </filter>
+        </defs>
+      </svg>
+
+      <div class="hireadbox">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="52"
+          height="52"
+          viewBox="0 0 52 52"
+          fill="none"
+          class="logo1">
+          <circle
+            cx="26"
+            cy="26"
+            r="25.75"
+            fill="white"
+            stroke="#999999"
+            stroke-width="0.5"
+            class="logo1"
+          />
+        </svg>
+        <span class="logo2">L</span>
+        <span class="comname">(주)링커</span>
+        <span class="comcontent">
+          2023 경력 및 신입<br></br>사원 인재채용
+        </span>
+        <span class="comdate">8.25~9.2</span>
+      </div>
+
+      <div class="newsbox">
+        <span class="newsmain">취업뉴스</span>
+        <div class="newshr"></div>
+        <span class="news1">너는 취업을 못한다.</span>
+        <span class="news2">너는 취업을 못한다.</span>
+        <span class="news3">너는 취업을 못한다.</span>
+        <span class="news4">너는 취업을 못한다.</span>
+        <span class="news5">너는 취업을 못한다.</span>
+        <span class="news1date">8.26</span>
+        <span class="news2date">8.26</span>
+        <span class="news3date">8.26</span>
+        <span class="news4date">8.25</span>
+        <span class="news5date">8.25</span>
       </div>
     </div>
   );
