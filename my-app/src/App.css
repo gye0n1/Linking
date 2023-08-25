@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.title {
+  color: #1858ca;
+  font-family: Lalezar;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 96px;
+  margin-top: 60px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bar {
+  width: 12800px;
+  height: 61px;
+  flex-shrink: 0;
+  background: #427be1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu1 {
+  position: absolute;
+  width: 23px;
+  height: 2px;
+  flex-shrink: 0;
+  background-color: white;
+  z-index: 2;
+  margin-top: 24px;
+  margin-left: 71px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu2 {
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  flex-shrink: 0;
+  background-color: white;
+  z-index: 2;
+  margin-top: 30px;
+  margin-left: 71px;
 }
-
-.App-link {
-  color: #61dafb;
+.menu3 {
+  position: absolute;
+  width: 23px;
+  height: 2px;
+  flex-shrink: 0;
+  background-color: white;
+  z-index: 2;
+  margin-top: 37px;
+  margin-left: 71px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.채용정보 {
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+  margin-left: 190px;
 }
