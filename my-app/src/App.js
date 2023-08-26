@@ -552,19 +552,126 @@ function App() {
       <div class="newsbox">
         <span class="newsmain">취업뉴스</span>
         <div class="newshr"></div>
-        <span class="news1">너는 취업을 못한다.</span>
-        <span class="news2">너는 취업을 못한다.</span>
-        <span class="news3">너는 취업을 못한다.</span>
-        <span class="news4">너는 취업을 못한다.</span>
-        <span class="news5">너는 취업을 못한다.</span>
+        <span class="news1">사업장별 외국인력 고용 2배↑</span>
+        <span class="news2">‘택배 상하차’에 외국인 문호 연다</span>
+        <span class="news3">교육부, 직업계고 100개 집중 육성·첨단</span>
+        <span class="news4">학부모 민원 '폭탄 돌리기'</span>
+        <span class="news5">울산 동구, 찾아가는 조선업 취업박람회</span>
         <span class="news1date">8.26</span>
         <span class="news2date">8.26</span>
         <span class="news3date">8.26</span>
         <span class="news4date">8.25</span>
         <span class="news5date">8.25</span>
       </div>
+
+      <span class="recentcom">최근 채용중인 회사</span>
+      <div class="comframe1">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoFzvb48jfv9ALBrWQC5T99USNnpsiPoPW9g&usqp=CAU"
+          class="onsemipng"
+          width="230px"
+          height="150px"
+        />
+        <div class="hirebox1">
+          <span class="recomname">(주)온세미컨덕터코리아</span>
+          <span class="cominst">https://onsemi-korea.com</span>
+        </div>
+      </div>
+      <div class="comframe2">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShZRKC1RoPk6TTXxT-t6rXrSYXx7SolAemkg&usqp=CAU"
+          class="jinmopng"
+          width="230px"
+          height="150px"
+        />
+        <div class="hirebox2">
+          <span class="recomname2">(주)진모빌리티</span>
+          <span class="cominst2">
+            https://www.imforyou.co.
+            <br />
+            kr/
+          </span>
+        </div>
+      </div>
+
+      <div class="comframe3">
+        <img
+          src="https://search.pstatic.net/sunny?src=https%3A%2F%2Fd35156dk3hq0x4.cloudfront.net%2Fuploads%2Fcompany%2Fthum_c968bb3997768c7d4322330f5c1df2a3.png&type=fff264_180"
+          class="softpng"
+          width="230px"
+          height="150px"
+        />
+        <div class="hirebox3">
+          <span class="recomname3">(주)소프트제국</span>
+          <span class="cominst3">http://www.swempire.co .kr</span>
+        </div>
+      </div>
+
+      <div class="comframe4">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtBVbmYoAUDZMAyYgoyxabRZ9FTlQetdBjA&usqp=CAU"
+          class="datatreepng"
+          width="230px"
+          height="150px"
+        />
+        <div class="hirebox4">
+          <span class="recomname4">(주)데이터트리</span>
+          <span class="cominst4">http://datatree.kr</span>
+        </div>
+      </div>
+
+      <div class="comframe5">
+        <img
+          src="https://pds.saramin.co.kr/company/logo/202106/08/qudmeo_raku-ulhyk1_logo.jpg"
+          class="creversepng"
+          width="230px"
+          height="150px"
+        />
+        <div class="hirebox5">
+          <span class="recomname5">(주)크레바스</span>
+          <span class="cominst5">https://company.crevers e.com</span>
+        </div>
+      </div>
+
+      <div class="comframe6">
+        <img
+          src="https://www.nanuminet.com/img/logo_top.png"
+          class="nanumipng"
+          width="230px"
+          height="110px"
+        />
+        <div class="hirebox6">
+          <span class="recomname6">(주)나누미넷</span>
+          <span class="cominst6">https://www.nanuminet.c<br/>om</span>
+        </div>
+      </div>
+
+      <div class="comframe7">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqiklRGQKm9D-hfOf3KdZV8ypob1H8NAgpnxoDTWCbpdBLHG766XdBS8SGhdSKtYhng&usqp=CAU"
+          class="kisedpng"
+          width="230px"
+          height="110px"
+        />
+        <div class="hirebox7">
+          <span class="recomname7">(주)창업진흥원</span>
+          <span class="cominst7">https://www.kised.or.kr<br/></span>
+        </div>
+      </div>
+
+      <div class="comframe8">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkgIPC_ZziupA4x4gZx8AgY5qrd4wN_0n5S_KORE_TSImm1NH2s5ShqkIKrIX9G-7qKbE&usqp=CAU"
+          class="kimmpng"
+          width="230px"
+          height="110px"
+        />
+        <div class="hirebox7">
+          <span class="recomname7">(주)한국기계연구원</span>
+          <span class="cominst7">https://www.kimm.re.kr<br/></span>
+        </div>
+      </div>
     </div>
   );
 }
-
 export default App;
