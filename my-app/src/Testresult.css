@@ -1,0 +1,178 @@
+.logo {
+  position: absolute;
+  color: #1858ca;
+  font-family: Lalezar;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 44px;
+  margin-left: 100px;
+}
+.resultbox {
+  position: absolute;
+  width: 1083px;
+  height: 673px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #999;
+  background: #fff;
+  margin-top: 166px;
+  margin-left: 100px;
+}
+.is {
+  position: absolute;
+  color: #6a6a6a;
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 73px;
+  margin-left: 93px;
+}
+.result {
+  position: absolute;
+  color: #6c6c6c;
+  font-family: Pretendard;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-left: 440px;
+}
+.box1 {
+  position: absolute;
+  width: 293px;
+  height: 348px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #999;
+  background: #fff;
+  margin-top: 254px;
+  margin-left: 51px;
+}
+.box2 {
+  position: absolute;
+  width: 293px;
+  height: 348px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #999;
+  background: #fff;
+  margin-top: 254px;
+  margin-left: 390px;
+}
+.box3 {
+  position: absolute;
+  width: 293px;
+  height: 348px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #999;
+  background: #fff;
+  margin-top: 254px;
+  margin-left: 730px;
+}
+.space1 {
+  position: absolute;
+  width: 167px;
+  height: 53px;
+  flex-shrink: 0;
+  background: #fff;
+  margin-top: 227px;
+  margin-left: 120px;
+}
+.space2 {
+  position: absolute;
+  width: 167px;
+  height: 53px;
+  flex-shrink: 0;
+  background: #fff;
+  margin-top: 227px;
+  margin-left: 450px;
+}
+.space3 {
+  position: absolute;
+  width: 167px;
+  height: 53px;
+  flex-shrink: 0;
+  background: #fff;
+  margin-top: 227px;
+  margin-left: 800px;
+}
+.con1 {
+  position: absolute;
+  width: 104px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 235px;
+  margin-left: 150px;
+}
+.con2 {
+  position: absolute;
+  width: 104px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 235px;
+  margin-left: 480px;
+}
+.con3 {
+  position: absolute;
+  width: 160px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 235px;
+  margin-left: 805px;
+}
+.edu {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 330px;
+  margin-left: 460px;
+}
+.company {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 330px;
+  margin-left: 150px;
+}
+.edupro {
+    position: absolute;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 330px;
+    margin-left: 835px;
+  }

@@ -416,3 +416,16 @@
   margin-left: 80px;
   z-index: 2;
 }
+
+.question-container span.clicked {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+/* 마우스 호버 시 스타일 변경 */
+.question-container span:hover {
+  cursor: pointer; /* 마우스 호버 시 포인터 커서 */
+  text-decoration: underline; /* 밑줄 추가 */
+}
