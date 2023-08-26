@@ -1,0 +1,418 @@
+.title {
+  position: absolute;
+  color: #1858ca;
+  font-family: Lalezar;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 44px;
+  margin-left: 650px;
+}
+.bar {
+  position: absolute;
+  width: 1470px;
+  height: 61px;
+  flex-shrink: 0;
+  background: #427be1;
+  margin-top: 163px;
+}
+.menu1 {
+  position: absolute;
+  width: 23px;
+  height: 2px;
+  flex-shrink: 0;
+  background-color: white;
+  z-index: 2;
+  margin-top: 24px;
+  margin-left: 71px;
+}
+.menu2 {
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  flex-shrink: 0;
+  background-color: white;
+  z-index: 2;
+  margin-top: 30px;
+  margin-left: 71px;
+}
+.menu3 {
+  position: absolute;
+  width: 23px;
+  height: 2px;
+  flex-shrink: 0;
+  background-color: white;
+  z-index: 2;
+  margin-top: 37px;
+  margin-left: 71px;
+}
+.채용공고 {
+  position: absolute;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+.line1 {
+  position: absolute;
+  width: 1px;
+  height: 21px;
+  flex-shrink: 0;
+  background: #8eb0ed;
+  margin-top: 20px;
+  margin-left: 312px;
+}
+.직무적성테스트 {
+  position: absolute;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 368px;
+}
+.line2 {
+  position: absolute;
+  width: 1px;
+  height: 21px;
+  flex-shrink: 0;
+  background: #8eb0ed;
+  margin-top: 20px;
+  margin-left: 540px;
+}
+.직업찾기 {
+  position: absolute;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 600px;
+}
+.line3 {
+  position: absolute;
+  width: 1px;
+  height: 21px;
+  flex-shrink: 0;
+  background: #8eb0ed;
+  margin-top: 20px;
+  margin-left: 720px;
+}
+.채용설명회 {
+  position: absolute;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 780px;
+}
+.line6 {
+  position: absolute;
+  width: 1px;
+  height: 21px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  background: #8eb0ed;
+  margin-top: 20px;
+  margin-left: 918px;
+}
+
+.testtitle {
+  position: absolute;
+  color: #6a6a6a;
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 300px;
+  margin-left: 200px;
+}
+.testbox {
+  position: absolute;
+  width: 1083px;
+  height: 1300px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #999;
+  background: #fff;
+  margin-top: 366px;
+  margin-left: 200px;
+}
+.resultbut {
+  position: absolute;
+  width: 249px;
+  height: 83px;
+  flex-shrink: 0;
+  margin-top: 1200px;
+  margin-left: 780px;
+  z-index: 2;
+}
+.butcon {
+  position: absolute;
+  color: #ffffff;
+  font-family: Pretendard;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1225px;
+  margin-left: 815px;
+  z-index: 4;
+}
+
+.q1 {
+  position: absolute;
+  color: #576072;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 82px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q1a1 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 170px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q1a2 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 200px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q1a3 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 230px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q1a4 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 260px;
+  margin-left: 80px;
+  z-index: 2;
+}
+
+.q2 {
+  position: absolute;
+  color: #576072;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 350px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q2a1 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 440px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q2a2 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 470px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q2a3 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 500px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q2a4 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 530px;
+  margin-left: 80px;
+  z-index: 2;
+}
+
+.q3 {
+  position: absolute;
+  color: #576072;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 620px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q3a1 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 710px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q3a2 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 740px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q3a3 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 770px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q3a4 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 800px;
+  margin-left: 80px;
+  z-index: 2;
+}
+
+.q4 {
+  position: absolute;
+  color: #576072;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 890px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q4a1 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 960px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q4a2 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 990px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q4a3 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1020px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.q4a4 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1050px;
+  margin-left: 80px;
+  z-index: 2;
+}

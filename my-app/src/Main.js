@@ -1,12 +1,17 @@
-import "./App.css";
+import "./Main.css";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function App() {
+function Main() {
+  const navigate = useNavigate();
+
+  const goTotest = () => {
+    navigate("/test"); // "/test" 경로로 이동
+  };
+
   return (
     <div>
       <span class="title">LiNking</span>
-      <span class="login">로그인</span>
-      <span class="signup">회원가입</span>
-      <span class="center">고객센터</span>
 
       <div class="bar">
         <div class="menu1"></div>
@@ -14,12 +19,16 @@ function App() {
         <div class="menu3"></div>
         <span class="채용공고">채용공고</span>
         <div class="line1"></div>
-        <span class="직무적성테스트">직무적성테스트</span>
+        <span class="직무적성테스트" onClick={goTotest}>
+          직무적성테스트
+        </span>
         <div class="line2"></div>
         <span class="직업찾기">직업찾기</span>
         <span class=""></span>
         <div class="line3"></div>
         <span class="채용설명회">채용설명회</span>
+        <div class="line6"></div>
+        <span class="center">고객센터</span>
       </div>
 
       <div class="loginbox">
@@ -642,7 +651,11 @@ function App() {
         />
         <div class="hirebox6">
           <span class="recomname6">(주)나누미넷</span>
-          <span class="cominst6">https://www.nanuminet.c<br/>om</span>
+          <span class="cominst6">
+            https://www.nanuminet.c
+            <br />
+            om
+          </span>
         </div>
       </div>
 
@@ -655,7 +668,10 @@ function App() {
         />
         <div class="hirebox7">
           <span class="recomname7">(주)창업진흥원</span>
-          <span class="cominst7">https://www.kised.or.kr<br/></span>
+          <span class="cominst7">
+            https://www.kised.or.kr
+            <br />
+          </span>
         </div>
       </div>
 
@@ -668,10 +684,14 @@ function App() {
         />
         <div class="hirebox7">
           <span class="recomname7">(주)한국기계연구원</span>
-          <span class="cominst7">https://www.kimm.re.kr<br/></span>
+          <span class="cominst7">
+            https://www.kimm.re.kr
+            <br />
+          </span>
         </div>
       </div>
     </div>
   );
 }
-export default App;
+
+export default Main;
