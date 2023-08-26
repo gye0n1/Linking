@@ -147,12 +147,14 @@
   position: absolute;
   color: #000;
   font-family: Pretendard;
-  font-size: 25px;
+  font-size: 30px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 1000;
   line-height: normal;
-  margin-top: 330px;
-  margin-left: 460px;
+  width: 1000px;
+  margin-top: 64px;
+  margin-left: 52px;
+  z-index: 3;
 }
 .company {
   position: absolute;
@@ -166,13 +168,106 @@
   margin-left: 150px;
 }
 .edupro {
-    position: absolute;
-    color: #000;
-    font-family: Pretendard;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 330px;
-    margin-left: 835px;
-  }
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 330px;
+  margin-left: 835px;
+}
+
+.com1-1 {
+  position: absolute;
+  color: #717171;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 76px;
+  margin-left: 63px;
+  stroke: #000;
+  stroke-width: 3px;
+}
+.com1-2 {
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 76px;
+  margin-left: 100px;
+}
+.com2 {
+  position: absolute;
+  color: #696969;
+  font-family: Bruno Ace SC;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 170px;
+  margin-left: 100px;
+}
+.com3-1 {
+  position: absolute;
+  color: #de9244;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 255px;
+  margin-left: 100px;
+}
+.com3-2 {
+  position: absolute;
+  color: #9dd075;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 255px;
+  margin-left: 135px;
+}
+.com3-3 {
+  position: absolute;
+  color: #9cd3c3;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 255px;
+  margin-left: 180px;
+}
+.inflearn {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.catenoid {
+  position: absolute;
+  width: 223px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-top: 125px;
+  margin-left: 42px;
+}
+.class101 {
+  position: absolute;
+  width: 153px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-top: 230px;
+  margin-left: 70px;
+}
